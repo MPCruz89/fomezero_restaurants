@@ -1,5 +1,4 @@
-### 1.PROBLEMA DE NEGÓCIO
-___
+# 1. PROBLEMA DE NEGÓCIO
 
 A empresa Fome Zero é uma marketplace de restaurantes. Ou seja, seu core
 business é facilitar o encontro e negociações de clientes e restaurantes. Os
@@ -105,13 +104,12 @@ pessoas?
 13. Qual o tipo de culinária que possui mais restaurantes que aceitam pedidos
 online e fazem entregas?
 
-### 1.PREMISSAS ASSUMIDAS PARA A ANÁLISE
-___
+# 2. PREMISSAS ASSUMIDAS PARA A ANÁLISE
 
 1. Marketplace foi o modelo de negócio assumido.
 2. As principais visões do negócio foram: Visão por País, Visão por Cidades, Visão Restaurantes e Visão por Tipo de Culinárias.
 
-**ESTRATÉGIAS DE SOLUÇÃO**
+# 3. ESTRATÉGIAS DE SOLUÇÃO
 
 O painel estratégico foi desenvolvido utilizando as métricas que refletem as principais visões do modelo de negócio da empresa:
 
@@ -124,81 +122,64 @@ Dispomos na página inicial as informações gerais com opção de seleção de 
 
 Cada visão é representada pelo seguinte conjunto de métricas.
 
-Visão Geral:
+## 3.1 Visão Geral:
 
-Quantidade de Restaurantes cadastrados
+* Quantidade de Restaurantes cadastrados
+* Quantidade de Países
+* Quantidade de Cidades registradas
+* Total de avaliações realizadas
+* Quantidade de tipos de culinárias cadastrados
+* Mapa com a localização de cada restaurante
 
-Quantidade de Países;
+## 3.2 Visão por País:
 
-Quantidade de Cidades registradas;
+* Quantidade de Restaurantes registrados por país;
+* Quantidade de Cidades registradas por país;
+* Média de avaliações por país;
+* Média de preço de um prato para duas pessoas por país;
 
-Total de avaliações realizadas;
+## 3.3 Visão por Cidade:
 
-Quantidade de tipos de culinárias cadastrados;
+* Top 10 Cidades com mais restaurantes registrados;
+* Top 10 Cidades com mais restaurantes com média maior que 4;
+* Top 10 Cidades com mais restaurantes com média menor que 2.5;
+* Top 10 Cidades com mais tipos de culinárias distintos;
+* Top 10 Cidades com maiores valores de prato para duas pessoas;
 
-Mapa com a localização de cada restaurante
+## 3.4 Visão por Restaurantes:
 
-Visão por País:
+* Os 10 melhores restaurantes;
+* Top 10 restaurantes com maior número de avaliações;
+* Percentual de restaurantes que realizam entregas;
+* Percentual de restaurantes que aceitam reservas;
 
-Quantidade de Restaurantes registrados por país;
+## 3.5 Visão por Tipo de Culinária:
 
-Quantidade de Cidades registradas por país;
+* Melhores restaurantes dos principais tipos de culinárias;
+* Top 10 melhores culinárias contendo o preço médio de um prato para duas pessoas
+* Tipos de culinária que mais possuem restaurantes que realizam entregas
 
-Média de avaliações por país;
+# 4. Top 3 Insights
 
-Média de preço de um prato para duas pessoas por país;
+  1. A Índia possui a maior quantidade de restaurantes e, ao mesmo tempo, os melhores restaurantes cadastrados na plataforma;
 
-Visão por Cidade:
+  2. Os restaurantes que realizam entrega recebem duas vezes mais avaliações do que aqueles que não entregam seus pratos;
 
-Top 10 Cidades com mais restaurantes registrados;
+  3. A Austrália possui somente 180 restaurantes registrados, contudo, é o 3º país que mais recebe avaliações. Ou seja, os clientes têm o hábito de avaliarem seus pedidos.
 
-Top 10 Cidades com mais restaurantes com média maior que 4;
-
-Top 10 Cidades com mais restaurantes com média menor que 2.5;
-
-Top 10 Cidades com mais tipos de culinárias distintos;
-
-Top 10 Cidades com maiores valores de prato para duas pessoas;
-
-Visão por Restaurantes:
-
-Os 10 melhores restaurantes;
-
-Top 10 restaurantes com maior número de avaliações;
-
-Percentual de restaurantes que realizam entregas;
-
-Percentual de restaurantes que aceitam reservas;
-
-Visão por Tipo de Culinária:
-
-Melhores restaurantes dos principais tipos de culinárias;
-
-Top 10 melhores culinárias contendo o preço médio de um prato para duas pessoas
-
-Tipos de culinária que mais possuem restaurantes que realizam entregas
-
-**TOP 3 INSIGHTS:**
-
-A Índia possui a maior quantidade de restaurantes e, ao mesmo tempo, os melhores restaurantes cadastrados na plataforma;
-
-Os restaurantes que realizam entrega recebem duas vezes mais avaliações do que aqueles que não entregam seus pratos;
-
-A Austrália possui somente 180 restaurantes registrados, contudo, é o 3º país que mais recebe avaliações. Ou seja, os clientes têm o hábito de avaliarem seus pedidos.
-
-**Produto Final**
+# 5. Produto Final
 Dashboard online, hospedado no Streamlit Cloud e disponível para acesso em qualquer dispositivo conectado à internet. O painel pode ser acessado através desse link: [https://fomezero-well.streamlit.app/](https://fomezero-mpcruz.streamlit.app/visao_paises)
 
-**Conclusão**
+# 6. Conclusão
 O objetivo deste Projeto é criar um painel online, composto de um conjunto de gráficos e/ou tabelas que exibam as métricas de negócio da melhor forma possível para o CEO acompanhar o crescimento da empresa.
 
-**Próximo passos**
-Reduzir o número de métricas;
+# 7. Próximo passos
+  1. Reduzir o número de métricas;
 
-Criar novos filtros conforme demanda do CEO;
+  2. Criar novos filtros conforme demanda do CEO;
 
-Dispor de features com as informações dos clientes (Sexo, Idade);
+  3. Dispor de features com as informações dos clientes (Sexo, Idade);
 
-Criar uma feature com conversão dos valores dos pratos para moeda única, a fim de padronizar os valores;
+  4. Criar uma feature com conversão dos valores dos pratos para moeda única, a fim de padronizar os valores;
 
-Adicionar novas visões de negócio (Visão Clientes, por exemplo)
+  5. Adicionar novas visões de negócio (Visão Clientes, por exemplo).
