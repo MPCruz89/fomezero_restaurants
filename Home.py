@@ -10,7 +10,7 @@ st.set_page_config(
 # =======================================
 
 st.sidebar.image(image='logo.png', width=120)
-st.sidebar.markdown('# Zomato Restaurant')
+st.sidebar.markdown('# Fome Zero Restaurant')
 st.sidebar.markdown('### Taste the best cuisines of the world.')
 st.sidebar.markdown('___')
 
