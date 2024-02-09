@@ -48,7 +48,6 @@ registrada?
 3. Qual o nome da cidade que possui mais restaurantes com nota média abaixo de
 2.5?
 4. Qual o nome da cidade que possui o maior valor médio de um prato para dois?
-Conteúdo licenciado para Marcos Paulo Dias da Cruz - 361.464.348-41
 5. Qual o nome da cidade que possui a maior quantidade de tipos de culinária
 distintas?
 6. Qual o nome da cidade que possui a maior quantidade de restaurantes que fazem
