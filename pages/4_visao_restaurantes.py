@@ -153,7 +153,7 @@ st.markdown('___')
 # =======================================
 
 st.sidebar.image('logo.png',width=150)
-st.sidebar.markdown('# Zomato Restaurant')
+st.sidebar.markdown('# Fome Zero Restaurant')
 st.sidebar.markdown('### Taste the best cuisines of the world.')
 st.sidebar.markdown('___')
 st.sidebar.markdown('## Filtros:')
