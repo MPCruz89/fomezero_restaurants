@@ -105,7 +105,8 @@ pessoas?
 13. Qual o tipo de culinária que possui mais restaurantes que aceitam pedidos
 online e fazem entregas?
 
-**PREMISSAS ASSUMIDAS PARA A ANÁLISE**
+### 1.PREMISSAS ASSUMIDAS PARA A ANÁLISE
+___
 
 1. Marketplace foi o modelo de negócio assumido.
 2. As principais visões do negócio foram: Visão por País, Visão por Cidades, Visão Restaurantes e Visão por Tipo de Culinárias.
