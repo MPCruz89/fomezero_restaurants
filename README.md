@@ -168,7 +168,7 @@ Cada visão é representada pelo seguinte conjunto de métricas.
   3. A Austrália possui somente 180 restaurantes registrados, contudo, é o 3º país que mais recebe avaliações. Ou seja, os clientes têm o hábito de avaliarem seus pedidos.
 
 # 5. Produto Final
-Dashboard online, hospedado no Streamlit Cloud e disponível para acesso em qualquer dispositivo conectado à internet. O painel pode ser acessado através desse link: [https://fomezero-well.streamlit.app/](https://fomezero-mpcruz.streamlit.app/visao_paises)
+Dashboard online, hospedado no Streamlit Cloud e disponível para acesso em qualquer dispositivo conectado à internet. O painel pode ser acessado através desse link: [https://fomezero-well.streamlit.app/](https://fomezero-mpcruz.streamlit.app/Home)
 
 # 6. Conclusão
 O objetivo deste Projeto é criar um painel online, composto de um conjunto de gráficos e/ou tabelas que exibam as métricas de negócio da melhor forma possível para o CEO acompanhar o crescimento da empresa.
