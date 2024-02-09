@@ -1,5 +1,5 @@
 ### 1.PROBLEMA DE NEGÓCIO
-*****
+___
 
 A empresa Fome Zero é uma marketplace de restaurantes. Ou seja, seu core
 business é facilitar o encontro e negociações de clientes e restaurantes. Os
